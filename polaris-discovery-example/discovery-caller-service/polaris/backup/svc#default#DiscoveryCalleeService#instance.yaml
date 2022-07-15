@@ -1,0 +1,51 @@
+---
+code: 200000
+info: "execute success"
+type: "INSTANCE"
+service:
+  name: "DiscoveryCalleeService"
+  namespace: "default"
+  ports: ""
+  business: ""
+  department: ""
+  cmdb_mod1: ""
+  cmdb_mod2: ""
+  cmdb_mod3: ""
+  comment: ""
+  owners: ""
+  ctime: "2022-05-27 17:35:02"
+  mtime: "2022-05-27 17:35:02"
+  revision: "e48ce0db5aca521ce729285010b91333bc915029"
+  platform_id: ""
+instances:
+- id: "e8dbbec0be1e2e48d729448cfc962f43f2fcca0f"
+  service: "DiscoveryCalleeService"
+  namespace: "default"
+  host: "10.141.245.7"
+  port: 48084
+  protocol: "http"
+  version: ""
+  priority: 0
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location:
+    region: "shanghai"
+    zone: "shanghai-zone-1"
+    campus: ""
+  metadata:
+    internal-address: "10.141.245.7:48084"
+    internal-ip: "10.141.245.7"
+    k1: "v1"
+    region: "shanghai"
+    zone: "shanghai-zone-1"
+    protocol: "http"
+  logic_set: ""
+  mtime: "2022-07-12 16:48:21"
+  revision: "6eda75f10aa242ad958241cf959e0885"
+  enableHealthCheck: true
+  vpc_id: ""

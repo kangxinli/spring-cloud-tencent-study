@@ -1,0 +1,80 @@
+---
+code: 200000
+info: "execute success"
+type: "INSTANCE"
+service:
+  name: "RouterCalleeService"
+  namespace: "default"
+  metadata:
+    internal-enable-nearby: "true"
+  ports: ""
+  business: ""
+  department: ""
+  cmdb_mod1: ""
+  cmdb_mod2: ""
+  cmdb_mod3: ""
+  comment: ""
+  owners: "polaris"
+  ctime: "2022-05-27 18:10:56"
+  mtime: "2022-06-20 15:03:51"
+  revision: "704c82470dbd45a720bdb22d549229d891c50e76"
+  platform_id: ""
+instances:
+- id: "04f6446b16c54635eaf6dc9c7acc2b478566c6ed"
+  service: "RouterCalleeService"
+  namespace: "default"
+  host: "192.168.40.81"
+  port: 48081
+  protocol: "http"
+  version: ""
+  priority: 0
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location:
+    region: ""
+    zone: ""
+    campus: ""
+  metadata:
+    internal-address: "192.168.40.81:48081"
+    internal-ip: "192.168.40.81"
+    label1: "value1"
+    protocol: "http"
+  logic_set: ""
+  mtime: "2022-07-15 11:32:37"
+  revision: "91956a7c38ae433aaae954bbf3c72e09"
+  enableHealthCheck: true
+  vpc_id: ""
+- id: "0fe2eca7111a224355c087640abd65ec6c4386b6"
+  service: "RouterCalleeService"
+  namespace: "default"
+  host: "192.168.40.81"
+  port: 48082
+  protocol: "http"
+  version: ""
+  priority: 0
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location:
+    region: ""
+    zone: ""
+    campus: ""
+  metadata:
+    label1: "value2"
+    protocol: "http"
+    internal-address: "192.168.40.81:48082"
+    internal-ip: "192.168.40.81"
+  logic_set: ""
+  mtime: "2022-07-15 11:33:01"
+  revision: "fdaed0d5ad484cb9a8203504c905ff1b"
+  enableHealthCheck: true
+  vpc_id: ""

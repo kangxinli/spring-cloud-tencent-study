@@ -1,0 +1,76 @@
+---
+code: 200000
+info: "execute success"
+type: "INSTANCE"
+service:
+  name: "RateLimitCalleeService"
+  namespace: "default"
+  ports: ""
+  business: ""
+  department: ""
+  cmdb_mod1: ""
+  cmdb_mod2: ""
+  cmdb_mod3: ""
+  comment: ""
+  owners: "polaris"
+  ctime: "2022-05-27 17:37:46"
+  mtime: "2022-05-27 17:37:46"
+  revision: "2480ce0cf1cff6a16b46d0b1e548d109e19769f6"
+  platform_id: ""
+instances:
+- id: "6b5942e7dc77fbad43d6187de1e2d323cc6030ff"
+  service: "RateLimitCalleeService"
+  namespace: "default"
+  host: "10.1.18.11"
+  port: 48081
+  protocol: "http"
+  version: ""
+  priority: 0
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location:
+    region: ""
+    zone: ""
+    campus: ""
+  metadata:
+    internal-address: "10.1.18.11"
+    internal-ip: "10.1.18.11"
+    protocol: "http"
+  logic_set: ""
+  mtime: "2022-07-14 16:43:35"
+  revision: "2195d7426f5147e3b1ad324acaf6b3df"
+  enableHealthCheck: true
+  vpc_id: ""
+- id: "968dc22942473bb410886b0cc6daf19e24ac8173"
+  service: "RateLimitCalleeService"
+  namespace: "default"
+  host: "10.141.245.179"
+  port: 48081
+  protocol: "http"
+  version: ""
+  priority: 0
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location:
+    region: ""
+    zone: ""
+    campus: ""
+  metadata:
+    internal-address: "10.141.245.179:48081"
+    internal-ip: "10.141.245.179"
+    protocol: "http"
+  logic_set: ""
+  mtime: "2022-07-14 16:40:12"
+  revision: "20d951c05e6a49aba601171a4aa7c93d"
+  enableHealthCheck: true
+  vpc_id: ""

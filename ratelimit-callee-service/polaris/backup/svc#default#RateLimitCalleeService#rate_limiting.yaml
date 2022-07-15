@@ -1,0 +1,31 @@
+---
+code: 200000
+info: "execute success"
+type: "RATE_LIMIT"
+service:
+  name: "RateLimitCalleeService"
+  namespace: "default"
+  revision: "879b902e2144455aa5e11575cbda2883"
+rateLimit:
+  rules:
+  - id: "947ba6c1cc6b43e0a35335ada3cf360c"
+    service: "RateLimitCalleeService"
+    namespace: "default"
+    priority: 0
+    type: "LOCAL"
+    labels:
+      '*':
+        type: "REGEX"
+        value: "*"
+      method:
+        type: "REGEX"
+        value: "/business/info/*"
+    amounts:
+    - maxAmount: 4
+      validDuration: "1s"
+    action: "UNIRATE"
+    disable: false
+    ctime: "2022-06-14 14:32:57"
+    mtime: "2022-07-14 15:42:17"
+    revision: "879b902e2144455aa5e11575cbda2883"
+  revision: "879b902e2144455aa5e11575cbda2883"

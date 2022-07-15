@@ -1,0 +1,50 @@
+---
+code: 200000
+info: "execute success"
+type: "INSTANCE"
+service:
+  name: "MetadataCalleeService"
+  namespace: "default"
+  metadata:
+    internal-auto-created: "true"
+  ports: ""
+  business: ""
+  department: ""
+  cmdb_mod1: ""
+  cmdb_mod2: ""
+  cmdb_mod3: ""
+  comment: ""
+  owners: "Polaris"
+  ctime: "2022-07-15 16:32:43"
+  mtime: "2022-07-15 16:32:43"
+  revision: "8972291302a3506b97ee389bf16ca4322e3d84ff"
+  platform_id: ""
+instances:
+- id: "f31f770cc2f4f00cfc9ef34b88828173194af7ae"
+  service: "MetadataCalleeService"
+  namespace: "default"
+  host: "192.168.40.81"
+  port: 48084
+  protocol: "http"
+  version: ""
+  priority: 0
+  weight: 100
+  healthCheck:
+    type: "HEARTBEAT"
+    heartbeat:
+      ttl: 5
+  healthy: true
+  isolate: false
+  location:
+    region: ""
+    zone: ""
+    campus: ""
+  metadata:
+    internal-address: "192.168.40.81:48084"
+    internal-ip: "192.168.40.81"
+    protocol: "http"
+  logic_set: ""
+  mtime: "2022-07-15 16:32:43"
+  revision: "f9c30bcea5824b50ae92cb3df9ad6f76"
+  enableHealthCheck: true
+  vpc_id: ""

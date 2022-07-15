@@ -1,0 +1,30 @@
+---
+code: 200000
+info: "execute success"
+type: "ROUTING"
+service:
+  name: "RouterCalleeService"
+  namespace: "default"
+  revision: "5aa7b00cfb4f4674b28fdcfd11de4c46"
+routing:
+  service: "RouterCalleeService"
+  namespace: "default"
+  outbounds:
+  - sources:
+    - service: "RouterCalleeService"
+      namespace: "default"
+      metadata:
+        "11":
+          value: "11"
+    destinations:
+    - service: "*"
+      namespace: "*"
+      metadata:
+        "22":
+          value: "22"
+      priority: 0
+      weight: 100
+      isolate: false
+  ctime: "2022-06-16 16:43:32"
+  mtime: "2022-06-17 15:20:45"
+  revision: "5aa7b00cfb4f4674b28fdcfd11de4c46"
